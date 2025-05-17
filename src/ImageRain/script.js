@@ -2,7 +2,7 @@ _images = [];
 const START_TOP = 0;
 const IMAGE_WIDTH = 5;
 
-
+ 
 addImageBlocks();
 addImageBlocks();
 addImageBlocks();
