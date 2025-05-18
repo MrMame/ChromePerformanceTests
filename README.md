@@ -1,2 +1,2 @@
 # ChromePerformanceTests
-Tests zum besseren Verständnis des Chrome-Dev Performance Tabs
+A collection of testing pages to get a better understanding of the Chrome browsers dev tools.
