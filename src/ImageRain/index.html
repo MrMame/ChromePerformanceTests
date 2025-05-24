@@ -19,7 +19,6 @@
     }
     img{ 
         position:relative;
-        animation: moveDown 2s linear infinite;
     }
     #TestArea{
         background-color: rgb(71, 3, 180);
@@ -29,14 +28,7 @@
         position:absolute;
         height:-webkit-fill-available;
     }
-    @keyframes moveDown {
-      0% {
-        top: 0;
-      }
-      100% {
-        top: 100%;
-      }
-    }
+   
 </style>
 <body>
     <h1 id="">ImageRain Testsite</h1>
@@ -44,7 +36,6 @@
         <input type="button" onclick="addImageBlocks(10);" value="+10"></input>
         <input type="button" onclick="addImageBlocks(100);" value="+100"></input>
         <input type="button" onclick="addImageBlocks(500);" value="+500"></input>
-
     </div>
     <div id="TestArea"></div>
     <!-- Dein HTML-Inhalt hier -->
